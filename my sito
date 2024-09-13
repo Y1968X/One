@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Il Mio Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact div {
+            flex-basis: 48%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Benvenuto nel Mio Blog</h1>
+</header>
+
+<nav>
+    <a href="#chi-sono">Chi Sono</a>
+    <a href="#contatti">Contatti</a>
+</nav>
+
+<section id="chi-sono">
+    <h2>Chi Sono</h2>
+    <p>Ciao! Mi chiamo [Il tuo nome] e questo è il mio blog. Qui scrivo di [tema del blog], condividendo le mie esperienze e le mie passioni. Seguimi per scoprire di più su di me e sui miei interessi!</p>
+</section>
+
+<section id="contatti">
+    <h2>Contatti</h2>
+    <div class="contact">
+        <div>
+            <h3>Email</h3>
+            <p>il.tuo.email@example.com</p>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <p><a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Il Mio Blog. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
